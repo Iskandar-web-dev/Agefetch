@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <h2>ПРОПИСАВ ЧЕЛОВЕКА В ФОРМУ - ДОБАВЬТЕ ЕГО В НЕОБХОДИМУ КОЛОНКУ</h2>
+            <div class="addUser">
+                <form name="add" class="add">
+                    <div>
+                        <p>Имя</p>
+                        <input type="text" name="name">
+                    </div>
+                    <div>
+                        <p>Возраст</p>
+                        <input type="age" name="age">
+                        <button>Добавить</button>
+                    </div>
+                </form>
+            </div>
+            <div class="box">
+                <div class=" boxAge box25 ">
+                    <h3>Люди до 25</h3>
+                </div>
+                <div class="boxAge box50">
+                    <h3>Люди до 50</h3>
+                </div>
+                <div class="boxAge boxOther">
+                    <h3>Остальные</h3>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="popup-black">
+        <div class="popup">
+            <h1>Edit</h1>
+            <form name="edit">
+                <input type="text"  name = 'name' placeholder="name" class="EditName">
+                <input type="text" name="age" placeholder="age" class="EditAge">
+                <button>Edit</button>
+            </form>
+        </div>     
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
